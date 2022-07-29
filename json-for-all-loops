@@ -1,0 +1,70 @@
+USING FOR LOOP:
+
+INPUT:
+
+let obj = [{ person: "Name-1", age: "2", company: "GUVI" },{ person: "Name-2", age: "5", company: "GUVI geek" },{ person: "Name-3", age: "8", company: "GUVI geek network"}];
+
+SOLUTION:
+
+for(i=0;i<obj.length;i++){
+    console.log(obj[i]);
+ }
+ 
+ OUTPUT:
+{ person: 'Name-1', age: '2', company: 'GUVI' }
+{ person: 'Name-2', age: '5', company: 'GUVI geek' }
+{ person: 'Name-3', age: '8', company: 'GUVI geek network' }
+
+
+USING ForEach :
+
+INPUT: 
+
+let obj = [{ person: "Name-1", age: "2", company: "GUVI" },{ person: "Name-2", age: "5", company: "GUVI geek" },{ person: "Name-3", age: "8", company: "GUVI geek network"}];
+
+SOLUTION:
+
+obj.forEach(function(item,index,array){
+    console.log(item);
+});
+
+OUTPUT:
+{ person: 'Name-1', age: '2', company: 'GUVI' }
+{ person: 'Name-2', age: '5', company: 'GUVI geek' }
+{ person: 'Name-3', age: '8', company: 'GUVI geek network' }
+
+
+USING For Of :
+
+INPUT: 
+
+let obj = [{ person: "Name-1", age: "2", company: "GUVI" },{ person: "Name-2", age: "5", company: "GUVI geek" },{ person: "Name-3", age: "8", company: "GUVI geek network"}];
+
+SOLUTION:
+
+for(let item of obj){
+    console.log(item);
+}
+
+OUTPUT:
+{ person: 'Name-1', age: '2', company: 'GUVI' }
+{ person: 'Name-2', age: '5', company: 'GUVI geek' }
+{ person: 'Name-3', age: '8', company: 'GUVI geek network' }
+
+
+USING For in :
+
+INPUT: 
+
+let obj = [{ person: "Name-1", age: "2", company: "GUVI" },{ person: "Name-2", age: "5", company: "GUVI geek" },{ person: "Name-3", age: "8", company: "GUVI geek network"}];
+
+SOLUTION:
+
+for(let item in obj){
+    console.log(obj[item]);
+}
+
+OUTPUT:
+{ person: 'Name-1', age: '2', company: 'GUVI' }
+{ person: 'Name-2', age: '5', company: 'GUVI geek' }
+{ person: 'Name-3', age: '8', company: 'GUVI geek network' }
